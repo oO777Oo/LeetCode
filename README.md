@@ -7,3 +7,5 @@
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540)
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) :heavy_check_mark:
+
+[1352, Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) :heavy_check_mark:
