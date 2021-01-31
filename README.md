@@ -6,4 +6,4 @@
 
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540)
 
-[852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852)
+[852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) :heavy_check_mark:
