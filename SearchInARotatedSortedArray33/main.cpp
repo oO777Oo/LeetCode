@@ -24,47 +24,36 @@ int search1 (vector<int>& nums, int target) {
  * */
 
 int search(vector<int>& nums, int target) {
-    int start, end, middle;
     int length = nums.size();
+    int start = 0, end = length - 1;
 
-    if (length % 2 == 0) {
-        middle = length / 2;
-    } else {
-        middle = length / 2 + 1;
-    }
+    while (start <= end) {
+        int mid = (end + start) / 2;
 
-    if (nums[middle] < target) {
-        return -1;
-    } else if (nums[length - 1] < target) {
-        start = 0;
-        end = middle;
-        middle = (end + start) / 2;
-    } else {
-        start = middle;
-        end = length - 1;
-        middle = (end + start) / 2;
-    }
-
-    while (true) {
-        if (target > nums[middle - 1] && target < nums[middle + 1]) {
-            return -1;
+        if (nums[mid] == target) {
+            return mid;
         }
-        if (nums[middle] == target) {
-            return middle;
-        }
-        if (target > nums[middle]) {
-           start = middle;
-           middle = (start + end) / 2;
+
+        if (nums[start] <= nums[mid]) {
+            if (target >= nums[start] && target < nums[mid]) {
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
         } else {
-            end = middle;
-            middle = (start + end) / 2;
+            if (target > nums[mid] && target <= nums[end]) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
         }
     }
+    return -1;
 }
 
 int main() {
-    // [4,5,6,0,1,2]
-    vector<int> nums = {1,3,2};
+
+    vector<int> nums = {4,5,6,7,0,1,2};
     int x = search(nums, 0);
     std::cout << x << std::endl;
     return 0;
