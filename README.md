@@ -6,7 +6,7 @@
 
 [441. Arranging Coins](ArrangingCoins441) :heavy_check_mark:
 
-[540. Single Element in a Sorted Array](SingleElementInASortedArray540) :x:
+[540. Single Element in a Sorted Array](SingleElementInASortedArray540) :bangbang:
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) :heavy_check_mark:
 
