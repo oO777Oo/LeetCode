@@ -21,8 +21,6 @@ int arrangeCoins(int n) {
 
 int main() {
     int x = arrangeCoins(1804289383);
-
     std::cout << x << std::endl;
-    std::cout << 1804289383 * 8 << std::endl;
     return 0;
 }
