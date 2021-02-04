@@ -20,41 +20,53 @@ int search1 (vector<int>& nums, int target) {
 
 
 /**
- * Second Method
+ * Binary Method
  * */
 
 int search(vector<int>& nums, int target) {
-    int length = nums.size();
-    int start = 0, end = length - 1;
+    int start = 0;
+    int end = nums.size();
 
-    while (start <= end) {
-        int mid = (end + start) / 2;
+    if(nums.size() == 1) {
+        if (nums[0] == target) {
+            return 0;
+        } else {
+            return -1;
+        }
+    }
 
+    while (end - start > 1) {
+        int mid = (start + end) / 2;
         if (nums[mid] == target) {
             return mid;
         }
-
-        if (nums[start] <= nums[mid]) {
-            if (target >= nums[start] && target < nums[mid]) {
-                end = mid - 1;
+        if (nums[start] == target ) {
+            return start;
+        }
+        if (nums[mid] > nums[start]) {
+            if (target <= nums[mid] && target >= nums[start]) {
+              end = mid;
             } else {
-                start = mid + 1;
+               start = mid + 1;
             }
         } else {
-            if (target > nums[mid] && target <= nums[end]) {
-                start = mid + 1;
+            if (target >= nums[mid] && target <= nums[end - 1]) {
+               start = mid + 1;
             } else {
-                end = mid - 1;
+                end = mid;
             }
         }
     }
-    return -1;
+    if (start < nums.size() && nums[start] == target) {
+        return -1;
+    } else {
+        return -1;
+    }
 }
 
 int main() {
-
-    vector<int> nums = {4,5,6,7,0,1,2};
-    int x = search(nums, 0);
+    vector<int> nums = {1,2,3,4,5,6,7,8};
+    int x = search(nums, 4);
     std::cout << x << std::endl;
     return 0;
 }
