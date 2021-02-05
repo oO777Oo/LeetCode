@@ -3,7 +3,8 @@
 
 using namespace std;
 
-int arrangeCoins(int n) {
+// First possibility
+int arrangeCoins1(int n) {
     /** We have formula k(k+1) / 2 for numbers 1+2+3+4+...k
      * That's means k(k+1) / 2 = n
      * k^2 + k - 2n = 0
@@ -19,8 +20,29 @@ int arrangeCoins(int n) {
     return (int) (-1 + sqrt(delta)) / 2;
 }
 
+// Solved using binary search
+int arrangeCoins(int n) {
+    long long int start = 1;
+    long long int end = n;
+    if(n == 0) {
+        return 0;
+    }
+
+    while (end - start > 1) {
+        long long int mid = (end + start) / 2;
+        long long int ans = mid*(mid +1) / 2;
+        if (ans <= n) {
+            start = mid;
+        } else {
+            end = mid;
+        }
+    }
+    return (int) start;
+}
+
+
 int main() {
-    int x = arrangeCoins(1804289383);
+    int x = arrangeCoins(2147483647);
     std::cout << x << std::endl;
     return 0;
 }
