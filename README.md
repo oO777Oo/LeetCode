@@ -14,4 +14,6 @@
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) :heavy_check_mark:
 
+[875. Koko Eating Bananas](KokoEatingBananas875) (Medium) :heavy_check_mark:
+
 [1352. Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) :heavy_check_mark:
