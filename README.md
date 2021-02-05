@@ -4,7 +4,7 @@
 
 [69. Sqrt(x)](Sqrt(x)69) :heavy_check_mark:
 
-[81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) :x:
+[81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) :heavy_check_mark:
 
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) :heavy_check_mark:
 
