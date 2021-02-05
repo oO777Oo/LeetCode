@@ -24,7 +24,8 @@ int arrangeCoins1(int n) {
 int arrangeCoins(int n) {
     long long int start = 1;
     long long int end = n;
-    if(n == 0) {
+    
+    if (n == 0) {
         return 0;
     }
 
