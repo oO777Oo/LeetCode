@@ -6,6 +6,8 @@
 
 [81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) (Medium) :heavy_check_mark:
 
+[162. Find Peak Element](FindPeakElement) (Medium) :heavy_check_mark:
+
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
 
 [441. Arranging Coins](ArrangingCoins441) (Easy) :heavy_check_mark:
