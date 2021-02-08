@@ -4,6 +4,8 @@
 
 [69. Sqrt(x)](Sqrt(x)69) (Easy) :heavy_check_mark:
 
+[74. Search a 2D Matrix](SearchA2DMatrix74) (Medium) :heavy_check_mark:
+
 [81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) (Medium) :heavy_check_mark:
 
 [162. Find Peak Element](FindPeakElement) (Medium) :heavy_check_mark:
