@@ -12,6 +12,8 @@
 
 [240. Search a 2D Matrix2](SearchA2DMatrix240) (Medium) :heavy_check_mark:
 
+[283. Move Zeroes](MoveZeroes283) (Easy) :heavy_check_mark:
+
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
 
 [441. Arranging Coins](ArrangingCoins441) (Easy) :heavy_check_mark:
