@@ -24,7 +24,7 @@
 
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540) (Medium) :heavy_check_mark:
 
-[763. Partition Labels](PartitionLabels763) (Medium) :x:
+[763. Partition Labels](PartitionLabels763) (Medium) :heavy_check_mark:
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
 

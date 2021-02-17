@@ -1,9 +1,9 @@
 import java.util.*;
 
 public class Main {
-    // TODO Didn't pass a test case need to do some changes!
+
     public static List<Integer> partitionLabels(String S) {
-        HashMap<Character, Integer[]> pars = new HashMap<>();
+        LinkedHashMap<Character, Integer[]> pars = new LinkedHashMap<>();
         char[] list = S.toCharArray();
         // For to determinate first and last index where char is meted.
         for (int i = 0; i < list.length; i++) {
@@ -13,7 +13,7 @@ public class Main {
                 diapason[1] = i;
                 pars.put(key, diapason);
             } else {
-                pars.put(key, new Integer[]{i,0});
+                pars.put(key, new Integer[]{i,i});
             }
         }
 
@@ -23,24 +23,28 @@ public class Main {
         for (Map.Entry<Character, Integer[]> pair: pars.entrySet()) {
             if (start) {
                 Integer[] minMax = pair.getValue();
-                boolean status = false;
+                boolean flag = false;
                 for (int i = 0; i < ans.size(); i ++) {
-                    if (ans.get(i)[0] <= minMax[0] && ans.get(i)[1] >= minMax[1]) {
-                        status = true;
+                    int min = ans.get(i)[0];
+                    int max = ans.get(i)[1];
+                    if (min < minMax[0] && minMax[1] < max) {
+                        flag = true;
                         break;
-                    } else if(ans.get(i)[0] <= minMax[0] && minMax[0] <= ans.get(i)[1]) {
-                        minMax[0] = ans.get(i)[0];
-                        ans.set(i, new Integer[]{minMax[0], minMax[1]});
-                        status = true;
+                    } else if (minMax[0] < min && minMax[1] > min && minMax[1] < max) {
+                        ans.set(i, new Integer[]{minMax[0], max});
+                        flag = true;
                         break;
-                    } else if(ans.get(i)[0] >= minMax[0] && ans.get(i)[0] <= minMax[1]) {
-                        minMax[1] = ans.get(i)[1];
-                        ans.set(i,new Integer[]{minMax[0], minMax[1]});
-                        status = true;
+                    } else if (min < minMax[0] && minMax[0] < max && max < minMax[1]) {
+                        ans.set(i, new Integer[]{min, minMax[1]});
+                        flag = true;
+                        break;
+                    } else if(minMax[0] < min && max < minMax[1]) {
+                        ans.set(i, minMax);
+                        flag = true;
                         break;
                     }
                 }
-                if(!status) {
+                if(!flag) {
                     ans.add(pair.getValue());
                 }
             } else {
@@ -49,27 +53,20 @@ public class Main {
             }
         }
 
+
         // Calculated chars number in array
         List<Integer> arr = new ArrayList<>();
         for (int i = 0; i < ans.size(); i++) {
-            if (i == 0) {
-                arr.add(ans.get(i)[1] - ans.get(i)[0] + 1);
-            } else if (i == ans.size() - 1) {
-                arr.add(S.length() - ans.get(i)[0]);
-            } else {
-                int value = ans.get(i)[1] - ans.get(i - 1)[1];
-                if (value <= 0) {
-                    arr.add(1);
-                } else {
-                    arr.add(value);
-                }
-            }
+            int min = ans.get(i)[0];
+            int max = ans.get(i)[1];
+            arr.add(max + 1 - min);
         }
         return arr;
     }
 
     public static void main(String[] args) {
-        String s = "ababcbacadefegdehijhklij";
+        String s = "caedbdedda";
+        // 9,7,8
         System.out.println(partitionLabels(s));
     }
 }
