@@ -30,7 +30,7 @@ cmake-build-debug
 CMakeLists.txt
 .idea
 LeetCode.iml
-
+*.iml
 
 # Executables
 *.exe

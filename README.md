@@ -14,6 +14,8 @@
 
 [283. Move Zeroes](MoveZeroes283) (Easy) :heavy_check_mark:
 
+[345. Reverse Vowels of a String](ReverseVowelsOfAString%20345) (Easy) :heavy_check_mark:
+
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
 
 [441. Arranging Coins](ArrangingCoins441) (Easy) :heavy_check_mark:
