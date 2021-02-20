@@ -29,3 +29,6 @@
 [1283. Find the Smallest Divisor Given a Threshold](FindTheSmallestDivisorGivenAAthreshold1283) (Medium) :heavy_check_mark:
 
 [1351. Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) (Easy) :heavy_check_mark:
+
+[1764. Form Array by Concatenating Subarrays of Another Array](FormArrayByConcatenatingSubarrayesOfAnotherArray1764) (Medium) :heavy_check_mark:
+
