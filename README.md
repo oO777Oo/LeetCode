@@ -20,6 +20,8 @@
 
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540) (Medium) :heavy_check_mark:
 
+[567. Permutation in String](PermutationInString567) (Medium) :heavy_check_mark:
+
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
 
 [875. Koko Eating Bananas](KokoEatingBananas875) (Medium) :heavy_check_mark:
