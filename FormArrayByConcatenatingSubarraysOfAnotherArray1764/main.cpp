@@ -16,11 +16,11 @@ int main() {
 bool canChoose(vector<vector<int>> &groups, vector<int> &nums) {
     int groupsLength = groups.size();
     int groupsFlag = 0;
-    for (int i = 0; i < nums.size();) {
-        if (groups[groupsFlag][0] == nums[i]) {
+    for (int numsItem = 0; numsItem < nums.size();) {
+        if (groups[groupsFlag][0] == nums[numsItem]) {
             int currentLength = groups[groupsFlag].size();
-            for (int groupItem = 0; groupItem < groups[groupsFlag].size(); groupItem++) {
-                if (groups[groupsFlag][groupItem] == nums[i]) {
+            for (int groupItem = 0; groupItem < groups[groupsFlag].size(); groupItem++, numsItem++) {
+                if (groups[groupsFlag][groupItem] == nums[numsItem]) {
                     currentLength--;
                 } else {
                     break;
@@ -33,10 +33,9 @@ bool canChoose(vector<vector<int>> &groups, vector<int> &nums) {
                         return true;
                     }
                 }
-                i++;
             }
         } else {
-            i++;
+            numsItem++;
         }
     }
     return groupsLength == 0;
