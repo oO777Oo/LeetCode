@@ -1,5 +1,5 @@
 # LeetCode
-[3. Longest Substring Without Repeating Characters](LongestSubstringWithoutRepeatingCharacters3) (Medium) :x:
+[3. Longest Substring Without Repeating Characters](LongestSubstringWithoutRepeatingCharacters3) (Medium) :heavy_check_mark:
 
 [33. Search in Rotated Sorted Array](SearchInARotatedSortedArray33) (Medium) :heavy_check_mark:
 
