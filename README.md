@@ -7,6 +7,8 @@
 
 [74. Search a 2D Matrix](SearchA2DMatrix74) (Medium) :heavy_check_mark:
 
+[76. Minimum Window Substring](MinimumWindowSubstring76) (Hard) :x:
+
 [81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) (Medium) :heavy_check_mark:
 
 [162. Find Peak Element](FindPeakElement) (Medium) :heavy_check_mark:
