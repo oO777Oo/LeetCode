@@ -29,6 +29,8 @@
 
 [713. Subarray Product Less than K](SubarrayProductLessThanK713) (Medium) :heavy_check_mark:
 
+[763. Partition Labels](PartitionLabels763) (Medium) :heavy_check_mark:
+
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
 
 [875. Koko Eating Bananas](KokoEatingBananas875) (Medium) :heavy_check_mark:
