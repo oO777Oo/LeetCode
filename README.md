@@ -1,4 +1,7 @@
 # LeetCode
+
+### Uptade: Problems will be classification by complexity (easy, medium, hard)
+
 [3. Longest Substring Without Repeating Characters](LongestSubstringWithoutRepeatingCharacters3) (Medium) :heavy_check_mark:
 
 [33. Search in Rotated Sorted Array](SearchInARotatedSortedArray33) (Medium) :heavy_check_mark:
