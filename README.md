@@ -1,6 +1,6 @@
 # LeetCode
 
-### Uptade: Problems will be classification by complexity (easy, medium, hard)
+### Update: Problems will be classification by complexity (easy, medium, hard)
 
 [3. Longest Substring Without Repeating Characters](LongestSubstringWithoutRepeatingCharacters3) (Medium) :heavy_check_mark:
 
