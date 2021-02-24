@@ -3,7 +3,6 @@
 using namespace std;
 
 string minWindow(string s, string t);
-bool controlAns(string s, int arr[]);
 
 int main() {
     string s = "ADOBECODEBANC";
@@ -13,50 +12,49 @@ int main() {
 }
 
 string minWindow(string s, string t) {
-    int tData[57] = {};
-    string ans = "";
-    int ansLength = s.size();
+    if (t.size() > s.size()) {
+        return "";
+    }
 
-    int length = 0;
+    int tData[57] = {};
+    int mobileVector[57] = {};
+    int counter = t.size();
+    int minimum = INT_MAX;
+    pair<int, int> indexes;
     int pointer = 0;
 
-    for (char i : t) {
-        if (tData[i - 65] == 0) {
-            tData[i - 65]++;
-        }
-        tData[i - 65]++;
+    for (int i = 0; i < t.size(); i++) {
+        tData[t[i] - 65]++;
+        mobileVector[t[i] - 65]++;
     }
-    string intermediate = "";
-    int counter = t.size();
+
     for (int i = 0; i < s.size(); i++) {
         if (tData[s[i] - 65] != 0) {
-            tData[s[i] - 65] --;
-            counter --;
-        }
-        intermediate += s[i];
-        length++;
-        if (counter == 0 && length < ansLength) {
-            ansLength = length;
-            ans = intermediate;
-        }
-        while (counter < 0) {
-            if(tData[s[pointer] - 65] != 0) {
-                tData[s[pointer] - 65]++;
-                counter ++;
+            if (mobileVector[s[i] - 65] - 1 >= 0) {
+                counter--;
             }
-            length --;
-            intermediate.erase(0,0);
-            pointer ++;
+            mobileVector[s[i] - 65]--;
         }
-
+        while (counter == 0) {
+            if (minimum > i - pointer) {
+                indexes.first = pointer;
+                indexes.second = i;
+                minimum = i - pointer;
+            }
+            if (tData[s[pointer] - 65] > 0) {
+                if (mobileVector[s[pointer] - 65] >= 0) {
+                    counter++;
+                }
+                mobileVector[s[pointer] - 65]++;
+            }
+            pointer++;
+        }
     }
-
+    string ans = "";
+    if (minimum != INT_MAX) {
+        for (int i = indexes.first; i <= indexes.second; i++) {
+            ans += s[i];
+        }
+    }
     return ans;
-}
-
-/*TODO check method */
-bool controlAns(string s, int arr[]) {
-    for (int i = 0; i < s.length(); i++) {
-
-    }
 }
