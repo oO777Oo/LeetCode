@@ -1,7 +1,7 @@
 # LeetCode
 
-[Easy complexity](Easy/)
+[Easy complexity](Easy/) (Solved 7 problems)
 
-[Midium complexity](Medium/)
+[Midium complexity](Medium/) (Solved 14 problems)
 
-[Hard complexity](Hard/)
+[Hard complexity](Hard/) (Solved 0 problems)
