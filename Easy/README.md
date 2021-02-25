@@ -3,6 +3,8 @@
 
 [88. Merge sorted array](MergeSortedArray88) (Easy) :heavy_check_mark:
 
+[155. Min Stack](MinStack155) (Easy) :heavy_check_mark:
+
 [283. Move Zeroes](MoveZeroes283) (Easy) :heavy_check_mark:
 
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
