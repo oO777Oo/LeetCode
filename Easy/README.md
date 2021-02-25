@@ -16,5 +16,7 @@
 
 [1021. Remove Outermost Parentheses](RemoveOutermostParentheses1021) (Easy) :heavy_check_mark:
 
+[1047. Remove All Adjacent Duplicates In String](RemoveAllAdjacentDuplicatesInString1047) (Easy) :heavy_check_mark:
+
 [1351. Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) (Easy) :heavy_check_mark:
 
