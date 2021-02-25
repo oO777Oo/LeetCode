@@ -14,7 +14,7 @@
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
 
-[1021. Remove Outermost Parentheses](RemoveOutermostParantheses1021) (Easy) :heavy_check_mark:
+[1021. Remove Outermost Parentheses](RemoveOutermostParentheses1021) (Easy) :heavy_check_mark:
 
 [1351. Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) (Easy) :heavy_check_mark:
 
