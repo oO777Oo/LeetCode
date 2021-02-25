@@ -1,3 +1,4 @@
+[20. Valid Parentheses](ValidParentheses20) (Easy) :heavy_check_mark:
 
 [69. Sqrt(x)](Sqrt(x)69) (Easy) :heavy_check_mark:
 

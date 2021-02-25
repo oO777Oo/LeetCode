@@ -1,6 +1,6 @@
 # LeetCode
 
-[Easy complexity](Easy/) (Solved 8 problems)
+[Easy complexity](Easy/) (Solved 9 problems)
 
 [Midium complexity](Medium/) (Solved 14 problems)
 
