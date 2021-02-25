@@ -20,3 +20,5 @@
 
 [1351. Count negative numbers in a sorted matrix](CountNegativeNumbersInASortedMatrix1351) (Easy) :heavy_check_mark:
 
+[1441. Build an Array With Stack Operations](BuildAnArrayWtithStackOperations1441) (Easy) :heavy_check_mark:
+
