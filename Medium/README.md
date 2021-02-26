@@ -34,4 +34,6 @@
 
 [1283. Find the Smallest Divisor Given a Threshold](FindTheSmallestDivisorGivenAAthreshold1283) (Medium) :heavy_check_mark:
 
+[1381. Design a Stack with Inrement Operation](DesignAStackWithIncrementOperation1381) (Medium) :heavy_check_mark:
+
 [1764. Form Array by Concatenating Subarrays of Another Array](FormArrayByConcatenatingSubarraysOfAnotherArray1764) (Medium) :heavy_check_mark:
