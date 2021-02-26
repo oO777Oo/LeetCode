@@ -6,6 +6,8 @@
 
 [81. Search in Rotated Sorted Array v.2](SearchInRotatedSortedArray81) (Medium) :heavy_check_mark:
 
+[94. Binary Tree Inorder Traversal](BinaryTreeInorderTraversal94) (Medium) :heavy_check_mark:
+
 [162. Find Peak Element](FindPeakElement) (Medium) :heavy_check_mark:
 
 [240. Search a 2D Matrix2](SearchA2DMatrix240) (Medium) :heavy_check_mark:
