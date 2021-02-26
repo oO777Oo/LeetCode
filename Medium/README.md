@@ -18,6 +18,8 @@
 
 [763. Partition Labels](PartitionLabels763) (Medium) :heavy_check_mark:
 
+[856. Score of Parentheses](ScoreOfParentheses856) (Medium) :heavy_check_mark:
+
 [875. Koko Eating Bananas](KokoEatingBananas875) (Medium) :heavy_check_mark:
 
 [881. Boats to Save People](BoatsToSavePeople881) (Medium) :heavy_check_mark:
