@@ -12,6 +12,8 @@
 
 [441. Arranging Coins](ArrangingCoins441) (Easy) :heavy_check_mark:
 
+[682. Baseball Game](BaseballGame682) (Easy) :heavy_check_mark:
+
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
 
 [1021. Remove Outermost Parentheses](RemoveOutermostParentheses1021) (Easy) :heavy_check_mark:
