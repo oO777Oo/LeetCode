@@ -24,3 +24,5 @@
 
 [1441. Build an Array With Stack Operations](BuildanArrayWithStackOperations1441) (Easy) :heavy_check_mark:
 
+[1598. Crawler Log Folder](CrawlerLogFolder1598) (Easy) :heavy_check_mark:
+
