@@ -26,6 +26,8 @@
 
 [986. Interval List Intersections](IntervalListIntersections986) (Medium) :heavy_check_mark:
 
+[1249. Minimum Remove to Make Valid Parentheses](MinimumRemoveToMakeValidParentheses1249) (Medium) :heavy_check_mark:
+
 [1283. Find the Smallest Divisor Given a Threshold](FindTheSmallestDivisorGivenAAthreshold1283) (Medium) :heavy_check_mark:
 
 [1764. Form Array by Concatenating Subarrays of Another Array](FormArrayByConcatenatingSubarraysOfAnotherArray1764) (Medium) :heavy_check_mark:
