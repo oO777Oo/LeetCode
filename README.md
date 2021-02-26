@@ -2,6 +2,6 @@
 
 [Easy complexity](Easy/) (Solved 15 problems)
 
-[Midium complexity](Medium/) (Solved 14 problems)
+[Midium complexity](Medium/) (Solved 15 problems)
 
 [Hard complexity](Hard/) (Solved 1 problems)

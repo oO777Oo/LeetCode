@@ -22,6 +22,8 @@
 
 [881. Boats to Save People](BoatsToSavePeople881) (Medium) :heavy_check_mark:
 
+[921. Minimum Add to Make Parentheses Valed](MinimumAddToMakePatenthesesValid921) (Medium) :heavy_check_mark:
+
 [986. Interval List Intersections](IntervalListIntersections986) (Medium) :heavy_check_mark:
 
 [1283. Find the Smallest Divisor Given a Threshold](FindTheSmallestDivisorGivenAAthreshold1283) (Medium) :heavy_check_mark:
