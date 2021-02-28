@@ -12,7 +12,7 @@
 
 [240. Search a 2D Matrix2](SearchA2DMatrix240) (Medium) :heavy_check_mark:
 
-[503. Next Greater Element 2](NextGreaterElement2_503) (Medium) :heavy_check_mark:
+[503. Next Greater Element 2](NextGreaterElement2-503) (Medium) :heavy_check_mark:
 
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540) (Medium) :heavy_check_mark:
 
