@@ -12,13 +12,15 @@
 
 [240. Search a 2D Matrix2](SearchA2DMatrix240) (Medium) :heavy_check_mark:
 
-[503. Next Greater Element 2](NextGreaterElement2-503) (Medium) :heavy_check_mark:
+[503. Next Greater Element 2](NextGreaterElement2_503) (Medium) :heavy_check_mark:
 
 [540. Single Element in a Sorted Array](SingleElementInASortedArray540) (Medium) :heavy_check_mark:
 
 [567. Permutation in String](PermutationInString567) (Medium) :heavy_check_mark:
 
 [713. Subarray Product Less than K](SubarrayProductLessThanK713) (Medium) :heavy_check_mark:
+
+[735. Asteroid Collision](AsteroidCollision735) (Medium) :heavy_check_mark:
 
 [763. Partition Labels](PartitionLabels763) (Medium) :heavy_check_mark:
 
@@ -31,6 +33,10 @@
 [921. Minimum Add to Make Parentheses Valed](MinimumAddToMakeParenthesesValid921) (Medium) :heavy_check_mark:
 
 [986. Interval List Intersections](IntervalListIntersections986) (Medium) :heavy_check_mark:
+
+[1003. Check if word is valid after substitutions](CheckIfWordIsValidAfterSubstitutions1003) (Medium) :heavy_check_mark:
+
+[1081. Smallest Subsequence of Distinct Characters](SmallestSubsequenceOfDistinctCharacters1081) (Medium) :X:
 
 [1249. Minimum Remove to Make Valid Parentheses](MinimumRemoveToMakeValidParentheses1249) (Medium) :heavy_check_mark:
 
