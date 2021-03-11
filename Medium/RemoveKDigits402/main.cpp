@@ -7,13 +7,14 @@ string removeKdigits(string num, int k) {
     if(k == 0) {
         return num;
     }
+    
     if(k >= num.length()) {
         return "0";
     }
 
     vector<int> v = {};
     string ans = "";
-    
+
     for (int i = 0; i < num.length(); i++) {
         int number = num[i];
         if (empty(v)) {
