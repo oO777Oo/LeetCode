@@ -33,6 +33,6 @@ vector<int> asteroidCollision(vector<int>& asteroids) {
 
 
 int main() {
-
+	cout<< "Hellow World";
 	return 0;
 }

@@ -1,0 +1,34 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+
+int sumSubarrayMins(vector<int>& arr) {
+	vector<int> stakc = {};
+	long long int ans = 0;
+	for(int i = 0; i < arr.length(); i++) {
+		ans += arr[i];
+		if(!empty(stakc)) {
+			if(arr[i] < stakc.back()) {
+				stack.push_back(arr[i]);
+			} else {
+				stack.push_back(stack.back());
+			}
+		} else {
+			stakc.push_back(arr[i]);
+		}
+	}        
+	for(int i = 0; i < stakc.length(); i++ ) {
+		cout<< stakc[i]<< " " << endl;
+	}
+
+}
+
+
+
+int main() {
+    
+	cout<< "Hellow World";
+	return 0;
+}
