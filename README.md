@@ -4,4 +4,4 @@
 
 [Medium complexity](Medium/) (Solved 26 problems)
 
-[Hard complexity](Hard/) (Solved 2 problems)
+[Hard complexity](Hard/) (Solved 3 problems)
