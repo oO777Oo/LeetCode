@@ -42,19 +42,7 @@ int trap(vector<int>& height) {
     	ans += min(maxLeft[i], maxRight.back()) - height[i];
     	maxRight.pop_back();
     }
-
-    for (int i = 0; i < maxLeft.size(); i++) {
-    	cout << height[i] << " ";
-    }
-    cout<< " " << endl;
-    for (int i = 0; i < maxLeft.size(); i++) {
-    	cout << maxLeft[i] << " ";
-    }
-    cout<< " " << endl;
-    for (int i = 0; i < maxLeft.size(); i++) {
-    	cout << maxRight[i] <<  " ";
-    }
-    cout<< " " << endl;
+    
     return ans;
 }
 
