@@ -12,6 +12,8 @@
 
 [283. Move Zeroes](MoveZeroes283) (Easy) :heavy_check_mark:
 
+[303. Range Sum Query - Immutable](RangeSumQueryImmutable303) (Easy) :heavy_check_mark: 
+
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
 
 [392. Is Subsequence](IsSubsequence392) (Easy) :heavy_check_mark: 
