@@ -4,6 +4,8 @@
 
 [88. Merge sorted array](MergeSortedArray88) (Easy) :heavy_check_mark:
 
+[121. Best Time to Buy and Sell Stock](BestTimeToBuyAndSellStock121) (Easy) :heavy_check_mark:
+
 [155. Min Stack](MinStack155) (Easy) :heavy_check_mark:
 
 [283. Move Zeroes](MoveZeroes283) (Easy) :heavy_check_mark:
