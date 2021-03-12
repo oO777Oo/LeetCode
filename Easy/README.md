@@ -16,6 +16,8 @@
 
 [682. Baseball Game](BaseballGame682) (Easy) :heavy_check_mark:
 
+[746. Min Cost Climbing Stairs](MinCostClimbingStairs746) (Easy) :heavy_check_mark:
+
 [844. Backspace String Compare](BackspaceStringCompare844) (Easy) :heavy_check_mark:
 
 [852. Peak Index in a Mountain Array](PeakIndexInAMountainArray852) (Easy) :heavy_check_mark:
