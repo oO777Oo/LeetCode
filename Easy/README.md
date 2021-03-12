@@ -12,6 +12,8 @@
 
 [374. Guess number higher or lower](GuessNumberHigherOrLower374) (Easy) :heavy_check_mark:
 
+[392. Is Subsequence](IsSubsequence392) (Easy) :heavy_check_mark: 
+
 [441. Arranging Coins](ArrangingCoins441) (Easy) :heavy_check_mark:
 
 [682. Baseball Game](BaseballGame682) (Easy) :heavy_check_mark:
