@@ -2,6 +2,8 @@
 
 [69. Sqrt(x)](Sqrt(x)69) (Easy) :heavy_check_mark:
 
+[70. Climbing Stairs](ClimbingStairs70) (Easy) :heavy_check_mark: 
+
 [88. Merge sorted array](MergeSortedArray88) (Easy) :heavy_check_mark:
 
 [121. Best Time to Buy and Sell Stock](BestTimeToBuyAndSellStock121) (Easy) :heavy_check_mark:
