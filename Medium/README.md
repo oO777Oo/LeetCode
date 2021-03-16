@@ -40,7 +40,7 @@
 
 [1003. Check if word is valid after substitutions](CheckIfWordIsValidAfterSubstitutions1003) (Medium) :heavy_check_mark:
 
-[1081. Smallest Subsequence of Distinct Characters](SmallestSubsequenceOfDistinctCharacters1081) (Medium) :X:
+[1081. Smallest Subsequence of Distinct Characters](SmallestSubsequenceOfDistinctCharacters1081) (Medium) :heavy_check_mark:
 
 [1249. Minimum Remove to Make Valid Parentheses](MinimumRemoveToMakeValidParentheses1249) (Medium) :heavy_check_mark:
 
