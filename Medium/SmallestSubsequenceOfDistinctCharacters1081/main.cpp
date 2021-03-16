@@ -4,72 +4,27 @@
 
 using namespace std;
 
-int largestRectangleArea(vector<int>& heights) {
-    std::vector<int> lessLeft = {};
-    std::vector<int> lessRight = {};
+string smallestSubsequence(string s) {
+    vector<int> count(256);
+    for(int i = 0; i < s.size(); i++) {
+      count[s[i]]++;
+    }
+    vector<bool> added(256);
 
-    std::vector<int> mobilLessLeft = {};
-    std::vector<int> mobilLessRight = {};
-
-    int integralMinLeft = -1;
-    int integralMinRight = heights.size();
-    int vecSize = integralMinRight - 1;
-    int afterLength = vecSize;
-
-    for (int i = 0; i < heights.size(); i++) {
-        // First Iteration: initialization
-        if (lessLeft.empty() && lessRight.empty()) {
-            lessLeft.push_back(integralMinLeft);
-            lessRight.push_back(integralMinRight);
-            
+    string out;
+    for(int i = 0; i < s.size(); i++) {
+      if(!added[s[i]]) {
+        while(out.size() > 0 && out.back() > s[i] && count[out.back()] > 0) {
+          added[out.back()] = false;
+          out.pop_back();
         }
-
-        // Less Left block.
-        while (!mobilLessLeft.empty() && heights[mobilLessLeft.back()] < heights[i]) {
-            mobilLessLeft.pop_back();
-        }
-
-        if (!mobilLessLeft.empty()) {
-            lessLeft.push_back(mobilLessLeft.back());
-        } else {
-            lessLeft.push_back(integralMinLeft);
-        }
-
-        // Less Right block.
-        while (!mobilLessRight.empty() && heights[mobilLessRight.back()] < heights[vecSize]) {
-            mobilLessRight.pop_back();
-        }
-
-        if(!mobilLessRight.empty()) {
-            lessRight.push_back(mobilLessRight.back());
-        } else {
-            lessRight.push_back(integralMinRight);
-        }
-// ===============================================================================
-
-        mobilLessRight.push_back(vecSize);
-        mobilLessLeft.push_back(i);
-        vecSize --;
+        added[s[i]] = true;
+        out.push_back(s[i]);
+      }
+      count[s[i]] --;
     }
 
-    for (int i = 0; i < heights.size(); i++) {
-        cout<<lessRight[i]<<" ";
-    }
-    cout<<" "<<endl;
-    for (int i = 0; i < heights.size(); i++) {
-        cout<<lessLeft[i]<<" ";
-    }
-
-    // Calculate area.
-    int maxArea = 0;
-    for (int i = 0; i < heights.size(); i++) {
-        if(maxArea < (lessRight[afterLength] - lessLeft[i] - 1) * heights[i]) {
-            maxArea = (lessRight[afterLength] - lessLeft[i] - 1) * heights[i];
-        }
-        afterLength --;
-    }
-    //cout<< maxArea;
-    return maxArea;
+    return out;
 }
 
 int main() {
