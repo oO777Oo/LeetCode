@@ -1,6 +1,8 @@
 # LeetCode
 
-## [My Leetcode link](https://leetcode.com/oOVladOo/)
+### [My Leetcode link](https://leetcode.com/oOVladOo/)
+
+--
 
 [Easy complexity](Easy/) (Solved 21 problems)
 
