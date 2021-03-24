@@ -4,8 +4,10 @@
 
 ___
 
-[Easy complexity](Easy/) (Solved 21 problems)
+[Solving Using Binary Search ](BinarySearch/) (12 problems)
 
-[Medium complexity](Medium/) (Solved 26 problems)
+[Solving Using Stack](Stack/) (23 problems)
 
-[Hard complexity](Hard/) (Solved 3 problems)
+[Solving Using Two Pointers](TwoPointers/) (9 problems)
+
+[Solving Using Dynamic Programming](DynamicProgramming/) (7 problems)
