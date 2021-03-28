@@ -18,4 +18,6 @@
 
 ### Medium
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[304. Range Sum Query 2D - Immutable](RangeSumQuery"DImmutable304/)*
+
 ### Hard
