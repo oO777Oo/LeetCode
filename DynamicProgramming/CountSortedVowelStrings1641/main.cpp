@@ -30,15 +30,15 @@ int main(int argc, char const *argv[])
 
 
 int countVowelStrings(int n) {
-	std::vector<int> v = {1,1,1,1,1};
-	int sum = 0;
+    std::vector<int> v = {1,1,1,1,1};
+    int sum = 0;
 
-	while(n > 1) {
-		v[4] += v[3] += v[2] += v[1] += v[0];
-		n--;
-	}
-	for(int i = 0; i < v.size(); i++) {
-		sum += v[i];
-	}
-	return sum;
+    while(n > 1) {
+	v[4] += v[3] += v[2] += v[1] += v[0];
+	n--;
+    }
+    for(int i = 0; i < v.size(); i++) {
+	sum += v[i];
+    }
+    return sum;
 }
