@@ -17,9 +17,9 @@ int countVowelStrings(int n);
  * ...
  * last number of that index + precedent number 
  * 1- 4-  10- 20- 35
- 	  |   |   |   |
+      |   |   |   |
  * 1- 5- 15- 35- 70
-      |   |  |   |
+      |   |   |   |
  * 1- 6- 21- 56- 126 ...
 */
 
