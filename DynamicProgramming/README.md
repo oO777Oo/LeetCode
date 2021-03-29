@@ -19,6 +19,7 @@
 ### Medium
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[304. Range Sum Query 2D - Immutable](RangeSumQuery2DImmutable304)*
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1641. Count Sorted Vowel Strings](CountSortedVowelStrings1641)*
 
 ### Hard
