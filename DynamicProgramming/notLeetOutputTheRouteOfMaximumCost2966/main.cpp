@@ -51,10 +51,9 @@ std::string longestPath(std::vector<std::vector<int>>& matrix) {
 		a,  a+b,...   9 18 27 36 45
 		a+z,          12 0  0  0  0
 		...           21 9  9  9  9
-				      27 6  6  6  6
+			      27 6  6  6  6
 		sum prefix    36 9  9  9  9
-		Becouse our tortule can go onli to the right or down
-		I init top axys x and left axys y to avoid index out of bounds.
+		Because the turtle can go right or down we have initialized the x and y axis not to produce index out of bounds
 	*/
 	for (int i = 1; i < matrix.size(); i++) {
 		for (int j = 1; j < matrix[i].size(); j++) {
