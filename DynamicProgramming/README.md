@@ -24,6 +24,8 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[931. Minimum Falling Path Sum](MinimumFallingPathSum931/)*
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1130. Minimum Cost Tree From Leaf Values](MinimumCostTreeFromLeafValues1130/)*
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1314. Matrix Block Sum](MatrixBlockSum1314/)*
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1641. Count Sorted Vowel Strings](CountSortedVowelStrings1641/)*
