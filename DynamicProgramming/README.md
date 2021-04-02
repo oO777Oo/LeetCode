@@ -24,6 +24,8 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[931. Minimum Falling Path Sum](MinimumFallingPathSum931/)*
 
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1043. Partition Array for Maximum Sum](PartitionArrayForMaximumSum1043/)*
+
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1130. Minimum Cost Tree From Leaf Values](MinimumCostTreeFromLeafValues1130/)*
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1314. Matrix Block Sum](MatrixBlockSum1314/)*
