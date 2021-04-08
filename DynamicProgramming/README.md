@@ -48,3 +48,5 @@
 &nbsp; &nbsp; &nbsp; • *[943. Pascal's triangle](PascalTriagle943/)*
 
 &nbsp; &nbsp; &nbsp; • *[944. The cheapest way](TheCheapestWay944/)*
+
+&nbsp; &nbsp; &nbsp; • *[945. Checker to the queens](PascalTriagle943/)*
