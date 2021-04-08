@@ -10,4 +10,4 @@ ___
 
 [Solving Using Two Pointers](TwoPointers/) (9 problems)
 
-[Solving Using Dynamic Programming](DynamicProgramming/) (21 problems)
+[Solving Using Dynamic Programming](DynamicProgramming/) (22 problems)

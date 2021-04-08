@@ -46,3 +46,5 @@
 &nbsp; &nbsp; &nbsp; • *[206. Number of routes in a rectangular table](NumberOfRoutesInARectangularTable206/)*
 
 &nbsp; &nbsp; &nbsp; • *[943. Pascal's triangle](PascalTriagle943/)*
+
+&nbsp; &nbsp; &nbsp; • *[944. The cheapest way](TheCheapestWay944/)*
