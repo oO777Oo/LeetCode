@@ -44,3 +44,5 @@
 &nbsp; &nbsp; &nbsp; • *[2966. Output the route of maximum cost](notLeetOutputTheRouteOfMaximumCost2966/)*
 
 &nbsp; &nbsp; &nbsp; • *[206. Number of routes in a rectangular table](NumberOfRoutesInARectangularTable206/)*
+
+&nbsp; &nbsp; &nbsp; • *[943. Pascal's triangle](PascalTriagle943/)*
