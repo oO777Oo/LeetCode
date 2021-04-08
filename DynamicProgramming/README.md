@@ -38,7 +38,9 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; • *[1641. Count Sorted Vowel Strings](CountSortedVowelStrings1641/)*
 
+### Hard
+
 #### Problem not from LeetCode:
 &nbsp; &nbsp; &nbsp; • *[2966. Output the route of maximum cost](notLeetOutputTheRouteOfMaximumCost2966/)*
 
-### Hard
+&nbsp; &nbsp; &nbsp; • *[206. Number of routes in a rectangular table](NumberOfRoutesInARectangularTable206/)*
