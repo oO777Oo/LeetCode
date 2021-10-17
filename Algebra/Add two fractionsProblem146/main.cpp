@@ -12,7 +12,7 @@ int main() {
 	int secondBot = 0;
 	std::cin >> firstTop >> firstBot >> secondTop >> secondBot;
 	std::pair<int,int> ans = solve(firstTop, firstBot, secondTop, secondBot);
-	std::cout<< ans.first << "/" << ans.second;
+	std::cout<< ans.first << " " << ans.second;
 	return 0;
 }
 
